@@ -1,0 +1,10 @@
+\
+[Unit]
+Description=DuckDNS updater (keep A record updated)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/diments-gps-tracker
+ExecStart=/bin/bash /opt/diments-gps-tracker/scripts/duckdns_update.sh

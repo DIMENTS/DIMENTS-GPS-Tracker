@@ -1,0 +1,10 @@
+\
+[Unit]
+Description=Certbot renew for DIMENTS tracker (DuckDNS DNS-01)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/diments-gps-tracker
+ExecStart=/bin/bash /opt/diments-gps-tracker/scripts/certbot_renew.sh
