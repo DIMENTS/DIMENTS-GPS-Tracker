@@ -1,3 +1,0 @@
-# /etc/default/duckdns
-DUCKDNS_SUBDOMAIN=irllogging
-DUCKDNS_TOKEN=PUT_YOUR_TOKEN_HERE
