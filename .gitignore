@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secrets
+.env
+
+# Runtime data
+data/
+logs/
+
+# Certs (keep local, not in git)
+certs/
+
+# Backups
+*.bak-*
+*.tmp
